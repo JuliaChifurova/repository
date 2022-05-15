@@ -1,0 +1,13 @@
+program 2218873
+  var a,b,p,s : real;
+begin
+  writeln('Считаю площадь прямоугольника...');
+  write('Сначала введите длину стооны а=');
+  readln(a);
+  write('Сначала введите длину стороны b=');
+  readln(b); 
+  p:= (a+b)*2;
+  s:= a*b
+  writeln('s=' p:7:4);
+  writeln('p=' s:7:4);
+end.
